@@ -43,7 +43,6 @@ body {
 }
 
 .heading_container h2 {
-  font-family: "SnellBT Regular", sans-serif;
   position: relative;
   font-weight: bold;
   font-size: 2.5rem;
@@ -126,8 +125,11 @@ a:focus {
   font-size: 28px;
   font-weight: bold;
   color: #ffffff;
-  font-family: "SnellBT Regular", sans-serif;
   color: #000000;
+}
+
+.navbar-logo {
+  width: 100px;
 }
 
 .quote_btn-container {
@@ -274,7 +276,7 @@ a:focus {
   left: 0;
   width: 75%;
   height: 100%;
-  background-image: url(../images/slider-bg1.png);
+  background-image: url(../images/woodbg2.jpg);
   background-size: 100% 100%;
   z-index: 2;
 }
@@ -285,25 +287,35 @@ a:focus {
   top: 25px;
   right: 45px;
   width: 550px;
-  height: 550px;
-  background-image: url(../images/slider-bg2.png);
+  height: 650px;
+  opacity: 15%;
+  background-image: url(../images/chopsticks.png);
   background-size: cover;
   background-position: bottom right;
   z-index: 1;
 }
 
 .slider_section .detail_box {
-  color: #ffffff;
+  color: #b00000;
 }
 
 .slider_section .detail_box h1 {
   font-size: 3rem;
   font-weight: bold;
   margin-bottom: 30px;
-  font-family: "SnellBT Regular", sans-serif;
 }
 
 .slider_section .detail_box h1 span {
+  font-size: 2.5em;
+}
+
+.slider_section .detail_box h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.slider_section .detail_box h2 span {
   font-size: 2.5em;
 }
 
@@ -314,8 +326,7 @@ a:focus {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-family: "SnellBT Regular", sans-serif;
-  color: #ffffff;
+  color: #b00000;
   font-weight: 500;
   margin-top: 75px;
   font-size: 20px;
@@ -383,7 +394,6 @@ a:focus {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-family: "SnellBT Regular", sans-serif;
   color: #46200b;
   font-weight: bold;
   margin-top: 25px;
@@ -1036,4 +1046,5 @@ a:focus {
 .footer_section a {
   color: inherit;
 }
+
 /*# sourceMappingURL=style.css.map */
